@@ -1,3 +1,34 @@
-Data-Driven Decision Making in a Music Streaming App
+Python Program: Count Songs in Each Genre
 
-A music streaming app can use data about the songs users listen to, skip, like, and add to playlists. It can study these listening patterns to understand what type of music each user enjoys. For example, if a user often listens to pop songs by a certain artist, the app can recommend similar pop songs and new artists. This helps users discover new music that they are more likely to enjoy.
+# Import pandas
+import pandas as pd
+
+# Load the CSV file
+df = pd.read_csv("spotify_data.csv")
+
+# Count the number of songs in each genre
+genre_count = df["genre"].value_counts()
+
+# Display the result
+print(genre_count)
+
+
+Sample spotify_data.csv:
+
+song_name,artist,streams,genre
+Blinding Lights,The Weeknd,3500000,Pop
+Shape of You,Ed Sheeran,3200000,Pop
+Believer,Imagine Dragons,2800000,Rock
+Perfect,Ed Sheeran,2500000,Pop
+Levitating,Dua Lipa,2400000,Pop
+Stay,Justin Bieber,2300000,Pop
+Thunder,Imagine Dragons,2100000,Rock
+Havana,Camila Cabello,1900000,Pop
+Heat Waves,Glass Animals,1800000,Alternative
+Lovely,Billie Eilish,1700000,Alternative
+
+Explanation:
+- pd.read_csv() loads the CSV file into a DataFrame.
+- df["genre"] selects the genre column.
+- value_counts() counts how many songs belong to each genre.
+- print() displays the number of songs in each genre.

@@ -1,17 +1,43 @@
-Data Science in E-Commerce
+Python Program: Bar Chart of Movies by Genre
 
-Industry: E-Commerce
+import pandas as pd
+import matplotlib.pyplot as plt
 
-Innovative Use: Personalized Product Recommendations
+# Create a small movie dataset
+data = {
+    "movie_name": [
+        "Dangal", "3 Idiots", "Pathaan", "Jawan",
+        "Stree", "Bhool Bhulaiyaa", "KGF", "RRR",
+        "Drishyam", "Andhadhun"
+    ],
+    "genre": [
+        "Drama", "Drama", "Action", "Action",
+        "Comedy", "Comedy", "Action", "Action",
+        "Thriller", "Thriller"
+    ]
+}
 
-E-commerce companies use data science and machine learning to recommend products to each customer. For example, Amazon analyzes information such as what customers search for, view, and buy to create personalized product recommendations. These recommendations can change based on the customer's current activity, helping them find products that may be useful or interesting to them. Amazon also uses newer AI methods to make recommendations and product information more relevant to individual customers.
+df = pd.DataFrame(data)
 
-Real-world example:
-Amazon uses machine learning and AI to personalize product recommendations across its online store. It uses customer shopping information, such as browsing, searches, and purchase history, to improve these recommendations.
+# Count movies in each genre
+genre_count = df["genre"].value_counts()
 
-Sources:
-1. Amazon - How Amazon is using generative AI to improve product recommendations:
-https://www.aboutamazon.com/news/retail/amazon-generative-ai-product-search-results-and-descriptions
+# Create a simple bar chart
+plt.bar(genre_count.index, genre_count.values)
+plt.xlabel("Genre")
+plt.ylabel("Number of Movies")
+plt.title("Number of Movies by Genre")
+plt.show()
 
-2. Amazon Science - Using graph neural networks to recommend related products:
-https://www.amazon.science/blog/using-graph-neural-networks-to-recommend-related-products
+Sample Dataset:
+Movie Name              Genre
+Dangal                  Drama
+3 Idiots                Drama
+Pathaan                 Action
+Jawan                   Action
+Stree                   Comedy
+Bhool Bhulaiyaa         Comedy
+KGF                     Action
+RRR                     Action
+Drishyam                Thriller
+Andhadhun               Thriller

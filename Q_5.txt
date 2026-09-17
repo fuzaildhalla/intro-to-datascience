@@ -1,0 +1,23 @@
+Feature Engineering Ideas for Online Food Orders
+
+Dataset Columns:
+- order_time
+- restaurant
+- cuisine
+- delivery_time
+- rating
+
+1. Order Hour
+Feature: Extract the hour from order_time, such as 8 PM.
+How it helps: The model can learn when customers usually order food. This can help predict busy hours and expected delivery times.
+
+2. Average Restaurant Delivery Time
+Feature: Calculate the average delivery time for each restaurant.
+How it helps: The model can compare restaurants based on their usual delivery speed and make better delivery-time predictions.
+
+3. Cuisine Rating Average
+Feature: Calculate the average customer rating for each cuisine.
+How it helps: The model can learn which cuisines usually receive higher ratings and use this information for recommendations.
+
+Conclusion:
+These features turn the original data into useful information that a data science model can understand more easily. They can help with prediction, recommendations, and improving the customer experience.

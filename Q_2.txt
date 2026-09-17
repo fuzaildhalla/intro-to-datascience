@@ -1,22 +1,11 @@
-Data Scientist Skills Table
+Python Program: Fetch Latest 5 Posts
 
-Statistics:
-1. Probability
-   Real-world example: A company can use probability to predict whether a customer is likely to stop using its service.
+import requests
 
-2. Hypothesis Testing
-   Real-world example: An online shopping website can test whether a new webpage design increases the number of people who buy products.
+url = "https://jsonplaceholder.typicode.com/posts"
 
-Programming:
-1. Python
-   Real-world example: A data scientist can use Python to analyze sales data and find which products are selling the most.
+response = requests.get(url)
+posts = response.json()
 
-2. SQL
-   Real-world example: A data scientist can use SQL to get customer and sales information from a company's database.
-
-Domain Knowledge:
-1. Business Knowledge
-   Real-world example: A data scientist working for a retail company can understand sales trends and help the company decide which products to promote.
-
-2. Marketing Knowledge
-   Real-world example: A data scientist can study customer behavior to find which type of advertisement gets more people to buy a product.
+for post in posts[-5:]:
+    print(post["title"])

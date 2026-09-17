@@ -1,10 +1,16 @@
-3 Apps I Use Daily and How They Use Data
+Data Science Project Problem Definition
 
-1. Instagram
-Instagram uses data about the posts, reels, and accounts I interact with. It uses this information to show me more content that I may like.
+App: Instagram
 
-2. Zomato
-Zomato uses data about my previous orders and searches. It can use this information to suggest restaurants and food that I may enjoy.
+Problem Definition:
+Instagram has a huge amount of content, and users may sometimes see posts or reels that are not relevant to their interests. A data science project could improve the recommendation system so that users see more content they are likely to enjoy.
 
-3. Paytm
-Paytm uses data about my past transactions and payments. It can use this information to make payments easier and show useful payment reminders or offers.
+Business Goal:
+The goal is to improve the user experience by showing more relevant posts and reels. This could increase user engagement, such as the time users spend on Instagram, likes, shares, saves, and comments.
+
+Data Needed:
+- Posts and reels that users like, share, save, or comment on
+- How long users watch reels and videos
+- Accounts and topics that users follow
+- Search history and content interactions
+- Posts and reels that users skip or ignore
