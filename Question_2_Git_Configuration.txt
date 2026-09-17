@@ -1,0 +1,17 @@
+Question 2: Configure Git Username and Email
+
+Task:
+Configure the Git username and email globally.
+
+Commands Used:
+
+git config --global user.name "My Name"
+git config --global user.email "myemail@example.com"
+
+Steps Completed:
+1. Set my Git username using git config --global user.name.
+2. Set my Git email using git config --global user.email.
+3. The details were configured globally for Git.
+
+Note:
+The commands above are examples. My actual username and email were used while completing the setup.

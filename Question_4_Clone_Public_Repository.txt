@@ -1,0 +1,18 @@
+Question 4: Clone a Public Repository
+
+Task:
+Clone the public-apis repository and check its Git status.
+
+Command Used:
+
+git clone https://github.com/public-apis/public-apis
+
+Then I opened the cloned repository folder and ran:
+
+git status
+
+Result:
+The repository was cloned successfully. Git status showed that I was on the main branch and that the working tree was clean, meaning there were no uncommitted changes.
+
+Repository:
+public-apis/public-apis

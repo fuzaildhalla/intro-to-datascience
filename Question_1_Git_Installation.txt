@@ -1,0 +1,14 @@
+Question 1: Install Git and Verify Installation
+
+Task:
+Install Git on the operating system and check the installed version.
+
+Steps Completed:
+1. Installed Git on my computer.
+2. Opened the terminal.
+3. Ran the following command:
+
+git --version
+
+Result:
+The terminal displayed the installed Git version, confirming that Git was installed successfully.

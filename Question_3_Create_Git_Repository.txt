@@ -1,0 +1,16 @@
+Question 3: Create and Initialize InstaCloneRepo
+
+Task:
+Create a folder called InstaCloneRepo and initialize it as a Git repository.
+
+Steps Completed:
+1. Created a new folder named InstaCloneRepo.
+2. Opened the terminal inside the folder.
+3. Ran:
+
+git init
+
+Result:
+Git initialized the folder as a repository. A hidden .git folder was created inside InstaCloneRepo.
+
+The .git folder stores the information Git needs to track changes and manage the repository.
