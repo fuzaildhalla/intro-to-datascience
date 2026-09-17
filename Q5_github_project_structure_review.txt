@@ -1,0 +1,46 @@
+Question 5: GitHub Open-Source Data Science Project Review
+
+Project Selected:
+Hugging Face Transformers
+Repository: https://github.com/huggingface/transformers
+
+Why I selected it:
+Hugging Face Transformers is a major open-source machine learning project. GitHub's current trending page lists Transformers among highly popular Python repositories, and the project has a large number of stars and contributors.
+
+Task Completed:
+I inspected the project's repository structure and compared it with the recommended Data Analytics/Data Science structure.
+
+Observed structure includes:
+- src/transformers - main source code
+- tests - automated tests
+- examples - example ML projects and training scripts
+- docs - documentation
+- scripts - utility scripts
+- benchmark - benchmarking code
+- README.md - project documentation
+
+Three ways it follows or differs from the recommended DA/DS structure:
+
+1. Similarity - Source Code Organization
+The project has a dedicated src folder for its main source code. This is similar to the recommended DS structure where reusable code is kept in src or scripts.
+
+2. Difference - Data Folder
+The project does not use a simple data/raw and data/processed structure like a typical data science project. This makes sense because Transformers is a software/ML framework rather than one project built around a single dataset.
+
+3. Difference - Testing and Documentation
+Instead of focusing mainly on dashboards and reports, the repository has large tests and docs folders. This is useful for a software library because testing and documentation are important for maintaining a large open-source project.
+
+Suggested Improvement:
+For someone learning data science, I would add a small clearly labeled data-examples folder containing tiny sample datasets used only for tutorials and examples. This would make the project structure easier for beginners to understand without changing the main framework structure.
+
+Sources:
+GitHub Trending:
+https://github.com/trending/py
+
+Transformers repository:
+https://github.com/huggingface/transformers
+
+Transformers examples:
+https://github.com/huggingface/transformers/tree/main/examples
+
+The project documentation also shows that examples are organized by ML task and that the repository uses src, tests, examples, and documentation areas.

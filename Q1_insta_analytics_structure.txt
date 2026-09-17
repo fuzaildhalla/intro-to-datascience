@@ -1,0 +1,20 @@
+Question 1: Insta-Analytics Project Structure
+
+Task Completed:
+I created a folder named insta-analytics and organized it using a Data Analytics project structure.
+
+Folder structure:
+
+insta-analytics/
+|-- data/
+|   |-- raw/
+|   |   |-- sample.csv
+|   |-- processed/
+|-- notebooks/
+|   |-- sample.ipynb
+|-- scripts/
+|-- dashboards/
+|-- reports/
+|-- README.md
+
+I also added a sample CSV file inside data/raw and a sample Jupyter notebook inside notebooks.

@@ -1,0 +1,17 @@
+Question 3: .gitignore File
+
+Task Completed:
+I created a .gitignore file for the insta-analytics project.
+
+Content of the .gitignore file:
+
+data/raw/*
+**/.ipynb_checkpoints/
+*.h5
+*.pkl
+
+What these rules do:
+- data/raw/* ignores all files inside the data/raw folder.
+- **/.ipynb_checkpoints/ ignores Jupyter checkpoint folders.
+- *.h5 ignores H5 model files.
+- *.pkl ignores Pickle files.

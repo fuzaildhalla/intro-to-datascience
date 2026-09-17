@@ -1,0 +1,21 @@
+Question 2: Spotify Song Popularity Predictor
+
+Task Completed:
+I created an ml-project folder for the Spotify Song Popularity Predictor.
+
+Folder structure:
+
+ml-project/
+|-- data/
+|   |-- dummy.txt
+|-- src/
+|   |-- dummy.txt
+|-- notebooks/
+|   |-- dummy.txt
+|-- models/
+|   |-- dummy.txt
+|-- saved_artifacts/
+|   |-- dummy.txt
+|-- README.md
+
+A dummy text file was placed in each subfolder to confirm that the folder structure was created correctly.
