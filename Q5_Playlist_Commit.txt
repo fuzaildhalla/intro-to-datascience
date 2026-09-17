@@ -1,0 +1,21 @@
+Question 5: Create and Commit playlist.txt
+
+Task Completed:
+I created playlist.txt inside InstaCloneRepo and added three song names.
+
+Songs added:
+1. Blinding Lights - The Weeknd
+2. Shape of You - Ed Sheeran
+3. Believer - Imagine Dragons
+
+I staged the file using:
+git add playlist.txt
+
+I committed the file using:
+git commit -m "Add initial playlist with 3 songs"
+
+Result:
+The playlist.txt file was successfully staged and committed.
+
+Commit Message:
+Add initial playlist with 3 songs

@@ -1,0 +1,12 @@
+Question 3: Create InstaCloneRepo
+
+Task Completed:
+I created a new folder named InstaCloneRepo and initialized it as a Git repository.
+
+Commands used:
+mkdir InstaCloneRepo
+cd InstaCloneRepo
+git init
+
+Result:
+The folder was successfully initialized as a Git repository. A hidden .git folder was created inside InstaCloneRepo.

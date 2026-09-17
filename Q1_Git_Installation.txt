@@ -1,0 +1,10 @@
+Question 1: Install Git and Verify Installation
+
+Task Completed:
+I installed Git on my Windows computer and opened the terminal to check the installation.
+
+Command used:
+git --version
+
+Result:
+The Git version was displayed in the terminal, confirming that Git was installed successfully.
