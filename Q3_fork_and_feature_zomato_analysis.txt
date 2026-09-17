@@ -1,0 +1,15 @@
+Question 3: Fork Repository and Create feature-zomato-analysis
+
+Task Completed:
+I forked a public GitHub repository related to data science and cloned my fork to my computer.
+
+I created a new branch called:
+feature-zomato-analysis
+
+I then created:
+zomato_analysis.txt
+
+One-line description added to the file:
+"I would analyze Zomato order data to find popular cuisines, average delivery times, customer ratings, and ordering patterns."
+
+The branch and file were successfully created.

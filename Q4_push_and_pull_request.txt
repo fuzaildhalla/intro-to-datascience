@@ -1,0 +1,18 @@
+Question 4: Push Branch and Open Pull Request
+
+Task Completed:
+I pushed the feature-zomato-analysis branch from my local computer to my GitHub fork.
+
+Command used:
+git push -u origin feature-zomato-analysis
+
+I then opened a Pull Request from my fork to the original repository.
+
+In the Pull Request:
+- I requested a review from a classmate.
+- I added a comment explaining what my change does.
+
+PR comment:
+"This change adds a short description of how Zomato order data could be analyzed to identify useful patterns such as popular cuisines, delivery times, ratings, and ordering behavior."
+
+The branch was successfully pushed and the Pull Request was created.

@@ -1,0 +1,12 @@
+Question 1: Create feature-playlist Branch
+
+Task Completed:
+I created a new Git branch called feature-playlist in an existing local project.
+
+Commands used:
+git branch feature-playlist
+git switch feature-playlist
+
+I then created a file named playlist.md and added descriptions of my top 3 favorite Spotify playlists.
+
+The feature-playlist branch was successfully created and checked out.

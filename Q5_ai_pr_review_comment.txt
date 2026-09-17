@@ -1,0 +1,8 @@
+Question 5: AI-Generated Pull Request Review Comment
+
+Task Completed:
+I used ChatGPT to generate a constructive Pull Request review comment for a teammate who added a new data visualization function.
+
+AI-generated review comment:
+
+"Nice work on the new data visualization function! The chart makes the data easier to understand and the function is clear and easy to follow. One small suggestion would be to add labels for the axes and a short title so users can quickly understand what the visualization shows. Overall, this is a useful addition and looks good to merge after that small improvement."

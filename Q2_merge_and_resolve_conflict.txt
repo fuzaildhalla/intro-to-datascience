@@ -1,0 +1,15 @@
+Question 2: Merge Branch and Resolve a Merge Conflict
+
+Task Completed:
+I simulated a team workflow by merging the feature-playlist branch into main using a merge commit.
+
+I first made different changes to the same line in playlist.md on the main and feature-playlist branches. This created a merge conflict.
+
+I opened the project in VS Code and used the VS Code Merge Editor to:
+1. Compare the changes from both branches.
+2. Choose and combine the required changes.
+3. Save the resolved playlist.md file.
+4. Stage the resolved file.
+5. Complete the merge commit.
+
+The merge conflict was successfully resolved using the VS Code merge tool.
