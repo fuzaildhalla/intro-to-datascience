@@ -1,0 +1,10 @@
+3 Apps I Use Daily and How They Use Data
+
+1. Instagram
+Instagram uses data about the posts, reels, and accounts I interact with. It uses this information to show me more content that I may like.
+
+2. Zomato
+Zomato uses data about my previous orders and searches. It can use this information to suggest restaurants and food that I may enjoy.
+
+3. Paytm
+Paytm uses data about my past transactions and payments. It can use this information to make payments easier and show useful payment reminders or offers.

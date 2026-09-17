@@ -1,0 +1,17 @@
+Data Science in E-Commerce
+
+Industry: E-Commerce
+
+Innovative Use: Personalized Product Recommendations
+
+E-commerce companies use data science and machine learning to recommend products to each customer. For example, Amazon analyzes information such as what customers search for, view, and buy to create personalized product recommendations. These recommendations can change based on the customer's current activity, helping them find products that may be useful or interesting to them. Amazon also uses newer AI methods to make recommendations and product information more relevant to individual customers.
+
+Real-world example:
+Amazon uses machine learning and AI to personalize product recommendations across its online store. It uses customer shopping information, such as browsing, searches, and purchase history, to improve these recommendations.
+
+Sources:
+1. Amazon - How Amazon is using generative AI to improve product recommendations:
+https://www.aboutamazon.com/news/retail/amazon-generative-ai-product-search-results-and-descriptions
+
+2. Amazon Science - Using graph neural networks to recommend related products:
+https://www.amazon.science/blog/using-graph-neural-networks-to-recommend-related-products
